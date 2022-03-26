@@ -1,0 +1,6 @@
+.about__selector {
+    width: 100%;
+    height: 160px;
+	display: flex;
+	margin-top: auto;
+}

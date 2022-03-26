@@ -1,0 +1,21 @@
+.about__selector_previous {
+    width: 50%;
+    border: none;
+    background: #fff;
+}
+
+.about__selector_previous-name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333;
+}
+
+.about__selector_previous-text {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #156963;
+}

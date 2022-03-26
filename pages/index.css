@@ -1,2 +1,17 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../vendor/normalize.css);
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/about__info/about__info.css);
+@import url(../blocks/about/about__text/about__text.css);
+@import url(../blocks/about/about__heading/about__heading.css);
+@import url(../blocks/about/about__paragraph/about__paragraph.css);
+@import url(../blocks/about/about__form-button/about__form-button.css);
+@import url(../blocks/about/about__form-button-name/about__form-button-name.css);
+@import url(../blocks/about/about__logo/about__logo.css);
+@import url(../blocks/about/about__image/about__image.css);
+@import url(../blocks/about/about__selector/about__selector.css);
+@import url(../blocks/about/about__selector/_next/about__selector_next.css);
+@import url(../blocks/about/about__selector/_previous/about__selector_previous.css);
+@import url(../blocks/about/about__button-container/about__button-container.css);

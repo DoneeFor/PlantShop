@@ -1,0 +1,7 @@
+.about__image {  
+    background: url("../../../images/pexels-cottonbro-4503751\ 1.jpg") no-repeat ;
+    background-size: cover;
+    background-position: center;
+    width:40%;
+    height: 100%;
+}

@@ -1,0 +1,6 @@
+.about__button-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 88px;
+    margin-top: 39px;
+}

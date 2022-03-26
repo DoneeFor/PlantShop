@@ -4,12 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/pages/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plant Shop</title>
 </head>
 <body>
-    <header class="header"></header>
-    <main>
+    <section class="about">        
+        <div class="about__image"></div>
+        <div class="about__info">
+            <img class="about__logo" src="/images/logo.svg" alt="логотип">
+            <button type="button" class="about__form-button">
+                <p class="about__form-button-name">Форма</p>
+            </button>
+            <article class="about__text">
+                <h1 class="about__heading">Kembang Flower Mantap</h1>
+                <p class="about__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            </article>
+            <article class="about__selector">
+                <button class="about__selector_previous">
+                    <div class="about__button-container">
+                        <img src="/images/arrow-left.svg" alt="стрелка влево">
+                        <p class="about__selector_previous-name">Previous</p>
+                    </div>
+                    <p class="about__selector_previous-text">Kaktus Plant</p>
+                </button>
+                <button class="about__selector_next">
+                    <div class="about__button-container">
+                        <p class="about__selector_next-name">Next</p>
+                        <img src="/images/arrow-right.svg" alt="стрелка вправо">
+                    </div>  
+                    <p class="about__selector_next-text">Rahasia Plant</p>
+                </button>
+            </article>
+        </div>   
+    </section>
+    <main class="main">
         <section class="advantages"></section>
         <section class="plants"></section>
     </main>

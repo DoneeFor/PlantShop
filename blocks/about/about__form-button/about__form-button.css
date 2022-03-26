@@ -1,0 +1,16 @@
+.about__form-button {
+    position: absolute;
+    right: 56px;
+    width: 111px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #156963;
+}
+
+.about__form-button:hover {
+    opacity: .6;
+    transition: 1s;
+}
