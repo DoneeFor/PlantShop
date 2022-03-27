@@ -1,10 +1,9 @@
-.popup__container {
+.table__container {
     box-sizing: border-box;
-    width: 470px;
+    width: 570px;
     background-color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     box-shadow: 3.29698px 3.84647px 16.4849px 3.84647px rgba(155, 155, 155, 0.25);
     border-radius: 8.37862px;
 }
