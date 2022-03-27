@@ -18,6 +18,7 @@ form.addEventListener('submit', function (evt) {
     fetch('https://jsonplaceholder.typicode.com/todos')
     .then((res) => {
         console.log(res);
+        popup.classList.remove('popup_opened');
     })
     .catch((err) => {
         console.log(err);
