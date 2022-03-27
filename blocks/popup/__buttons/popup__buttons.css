@@ -1,0 +1,6 @@
+.popup__buttons {
+    margin-bottom: 41px;
+    display: flex;
+    justify-content: center;
+    gap: 17.65px;
+}

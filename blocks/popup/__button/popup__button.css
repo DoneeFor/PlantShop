@@ -1,0 +1,11 @@
+.popup__button {
+    width: 185.95px;
+    height: 39.65px;
+    border: 0.630345px solid #CCE1FE;
+    box-sizing: border-box;
+    box-shadow: 0px 1.48681px 2.97363px rgba(0, 0, 0, 0.15);
+    border-radius: 15.7586px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+}

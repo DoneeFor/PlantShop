@@ -1,0 +1,9 @@
+.popup__paragraph {
+    font-family: 'PTSans', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    margin-top: 9px;
+    margin-bottom: 39px;
+}

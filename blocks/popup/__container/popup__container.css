@@ -1,0 +1,8 @@
+.popup__container {
+    box-sizing: border-box;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3.29698px 3.84647px 16.4849px 3.84647px rgba(155, 155, 155, 0.25);
+    border-radius: 8.37862px;
+}
