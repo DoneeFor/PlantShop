@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="/pages/index.css">
+    <link rel="stylesheet" type="text/css" href="/pages/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plant Shop</title>
 </head>
@@ -120,7 +120,7 @@
 
     <article class="popup">
         <div class="popup__container">
-            <form autocomplete="on" class="popup__form">
+            <form autocomplete="on" class="popup__form" name="form">
                 <button type="button" class="popup__close closeAddPopup"></button>
                 <fieldset class="popup__fieldset">               
                     <div class="popup__image"><img src="/images/map.svg" alt="иконка карты"></div>
@@ -128,16 +128,16 @@
                     <p class="popup__paragraph">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p> 
                     <input id="placename" class="popup__input" type="text" name="placename" placeholder="Имя" minlength="2" required>  <!-- Уменьшил минимальную длинну имени с 3 до 2 в уважение моему другу Ли --> 
                     <span class="popup__input-error" id="placename-error"></span>
-                    <input id="phone" class="popup__input" type="tel" name="phone" placeholder="Номер Телефона" pattern="^((\+7|7|8)+([0-9]){10})$">
+                    <input id="phone" class="popup__input" type="tel" name="phone" placeholder="Номер Телефона" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
                     <span class="popup__input-error" id="phone-error"></span>
                     <div class="popup__buttons">
-                        <button class="popup__button popup__button_cancel closeAddPopup">Отменить</button>
+                        <button type="button" class="popup__button popup__button_cancel closeAddPopup">Отменить</button>
                         <button type="submit" class="popup__button popup__button_send">Отправить</button>
                     </div>
                 </fieldset>
             </form>
         </div>
     </article>
-
+    <script  type="module" src="/pages/index.js"></script>
 </body>
 </html>
