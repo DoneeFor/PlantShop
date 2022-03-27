@@ -1,0 +1,5 @@
+.plants__buttonbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

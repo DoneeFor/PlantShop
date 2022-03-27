@@ -12,7 +12,7 @@
     <section class="about">        
         <div class="about__image"></div>
         <div class="about__info">
-            <img class="about__logo" src="/images/logo.svg" alt="логотип">
+            <img class="about__logo" src="/images/logo.svg" alt="logo">
             <button type="button" class="about__form-button">
                 <p class="about__form-button-name">Форма</p>
             </button>
@@ -23,7 +23,7 @@
             <article class="about__selector">
                 <button class="about__selector_previous">
                     <div class="about__button-container">
-                        <img src="/images/arrow-left.svg" alt="стрелка влево">
+                        <img src="/images/arrow-left.svg" alt="left arrow">
                         <p class="about__selector_previous-name">Previous</p>
                     </div>
                     <p class="about__selector_previous-text">Kaktus Plant</p>
@@ -31,16 +31,91 @@
                 <button class="about__selector_next">
                     <div class="about__button-container">
                         <p class="about__selector_next-name">Next</p>
-                        <img src="/images/arrow-right.svg" alt="стрелка вправо">
+                        <img src="/images/arrow-right.svg" alt="right arrow">
                     </div>  
                     <p class="about__selector_next-text">Rahasia Plant</p>
                 </button>
             </article>
         </div>   
     </section>
-    <main class="main">
-        <section class="advantages"></section>
-        <section class="plants"></section>
-    </main>
+    
+    <section class="advantages">
+        <div class="advantages__container">
+            <div class="advantages__header">
+                <div class="advantages__logo">
+                    <img src="/images/speed.svg" alt="speed">
+                </div>
+                <h2 class="advantages__name">Fast Delivery</h2>
+            </div>
+            <p class="advantages__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+        </div>
+        <div class="advantages__container">
+            <div class="advantages__header">
+                <div class="advantages__logo">
+                    <img src="/images/headphones.svg" alt="headphones">
+                </div>
+                <h2 class="advantages__name">Great Customer Service</h2>
+            </div>
+            <p class="advantages__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+        </div>
+        <div class="advantages__container">
+            <div class="advantages__header">
+                <div class="advantages__logo">
+                    <img src="/images/plant.svg" alt="plant">
+                </div>
+                <h2 class="advantages__name">Original Plants</h2>
+            </div>
+            <p class="advantages__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+        </div>
+        <div class="advantages__container">
+            <div class="advantages__header">
+                <div class="advantages__logo">
+                    <img src="/images/dollar.svg" alt="dollar">
+                </div>
+                <h2 class="advantages__name">Affordable Price</h2>
+            </div>
+            <p class="advantages__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+        </div>
+    </section>
+
+    <section class="plants">
+        <nav class="plants__nav">
+            <h2 class="plants__nav-title">Featured Plants</h2>
+            <button class="plants__filter">
+                <div class="plants__buttonbox">
+                    <p class="plants__buttonbox-title">Cheaper First</p>
+                    <img class="plants__buttonbox-arrow" src="/images/arrow-bottom.svg" alt="arrow bottom">
+                </div>
+            </button>
+        </nav>
+        <hr class="plants__line" size=3px width=100% color="#E0E0E0">
+        <div class="plants__cardlist">
+            <div class="plants__card">
+                <div class="plants__imageblock"><img src="/images/plant_photo1.png" alt="plant"></div>
+                <h3 class="plants__title">Kaktus Plants</h3>
+                <p class="plants__price">IDR 85.000</p>
+            </div>
+            <div class="plants__card">
+                <div class="plants__imageblock"><img src="/images/plant_photo2.png" alt="plant"></div>
+                <h3 class="plants__title">Landak Plants</h3>
+                <p class="plants__price">IDR 105.000</p>
+            </div>
+            <div class="plants__card">
+                <div class="plants__imageblock"><img src="/images/plant_photo3.png" alt="plant"></div>
+                <h3 class="plants__title">Kecubung Plants</h3>
+                <p class="plants__price">IDR 85.000</p>
+            </div>
+            <div class="plants__card">
+                <div class="plants__imageblock"><img src="/images/plant_photo4.png" alt="plant"></div>
+                <h3 class="plants__title">Kecubung Plants</h3>
+                <p class="plants__price">IDR 85.000</p>
+            </div>
+            <div class="plants__card">
+                <div class="plants__imageblock"><img src="/images/plant_photo5.png" alt="plant"></div>
+                <h3 class="plants__title">Kecubung Plants</h3>
+                <p class="plants__price">IDR 85.000</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

@@ -1,0 +1,8 @@
+.advantages {
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}

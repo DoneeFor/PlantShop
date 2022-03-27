@@ -1,6 +1,6 @@
 .about__button-container {
     display: flex;
     flex-direction: row;
-    margin-left: 88px;
+    justify-content: center;
     margin-top: 39px;
 }
